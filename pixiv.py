@@ -55,6 +55,7 @@ def main(argv):
     if dir == '':
         print('require dir to save! -h for help')
         return
+    # Windows平台
     print '关键词：'.decode('utf-8').encode('gb2312'), key.decode('utf-8').encode('gb2312')
     print 'start下限：'.decode('utf-8').encode('gb2312'), max.decode('utf-8').encode('gb2312')
     print '输出目录：'.decode('utf-8').encode('gb2312'), dir.decode('utf-8').encode('gb2312')
